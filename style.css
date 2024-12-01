@@ -1,0 +1,76 @@
+/* Reset Básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #FFFFFF;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Cabeçalho */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #1E1E1E;
+    width: 100%;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #E50914;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Galeria de Vídeos */
+.video-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    max-width: 1200px;
+}
+
+.video-card {
+    background-color: #282828;
+    border-radius: 8px;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.video-card iframe {
+    width: 100%;
+    height: 170px;
+    border-radius: 8px;
+    border: none;
+}
+
+.video-card h2 {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+
+/* Rodapé */
+footer {
+    background-color: #1E1E1E;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
